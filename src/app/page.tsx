@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
@@ -44,7 +44,7 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroLogoBillboard 
           logoText="F*ck Around and Find Out"
-          description="Spontaneous island adventures await. Escape the ordinary, embrace the unexpected, and discover Hawaii's hidden magic through unplanned exploration."
+          description="Escape the ordinary, embrace the unexpected, and discover Hawaii's hidden magic through unplanned exploration."
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766071500610-bci3nm5b.jpg"
           imageAlt="Tropical Hawaiian sunset over crystal blue ocean"
           frameStyle="card"
