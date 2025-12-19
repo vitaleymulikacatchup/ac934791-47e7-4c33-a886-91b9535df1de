@@ -37,18 +37,18 @@ export default function LandingPage() {
           ]}
           button={{text: "Book Adventure", href: "contact"}}
           brandName="FAFO"
-          logoAlt="F*ck Around and Find Out Travel Agency"
+          logoAlt="F*ck Around & Find Out Travel Agency"
         />
       </div>
 
       <div id="hero" data-section="hero">
         <HeroLogoBillboard 
-          logoText="F*ck Around and Find Out"
+          logoText="F*ck Around & Find Out"
           description="Escape the ordinary, embrace the unexpected, and discover Hawaii's hidden magic through unplanned exploration."
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766071500610-bci3nm5b.jpg"
           imageAlt="Tropical Hawaiian sunset over crystal blue ocean"
           frameStyle="card"
-          ariaLabel="Hero section featuring F*ck Around and Find Out travel agency"
+          ariaLabel="Hero section featuring F*ck Around & Find Out travel agency"
         />
       </div>
 
@@ -237,7 +237,7 @@ export default function LandingPage() {
             {
               id: "1",
               title: "What does FAFO stand for?",
-              content: "FAFO stands for F*ck Around and Find Out - our philosophy of spontaneous, authentic travel exploration. We believe the best travel experiences come from saying yes to the unexpected and embracing island adventure without rigid itineraries."
+              content: "FAFO stands for F*ck Around & Find Out - our philosophy of spontaneous, authentic travel exploration. We believe the best travel experiences come from saying yes to the unexpected and embracing island adventure without rigid itineraries."
             },
             {
               id: "2",
@@ -270,7 +270,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactText 
-          text="Ready to F*ck Around and Find Out? Let's start planning your spontaneous Hawaiian adventure today. Your island escape is just one click away."
+          text="Ready to F*ck Around & Find Out? Let's start planning your spontaneous Hawaiian adventure today. Your island escape is just one click away."
           animationType="background-highlight"
           buttons={[
             {text: "Book Your Adventure", href: "contact"},
@@ -283,7 +283,7 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterBaseSocial 
           logoText="FAFO"
-          description="Spontaneous Hawaiian adventures for the bold and adventurous. F*ck Around and Find Out - where every moment becomes a story."
+          description="Spontaneous Hawaiian adventures for the bold and adventurous. F*ck Around & Find Out - where every moment becomes a story."
           columns={[
             {
               title: "Explore",
